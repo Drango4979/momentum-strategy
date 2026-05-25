@@ -111,14 +111,46 @@ financial crisis is the most significant drawdown period for both.
 
 ---
 
+Here's the explanation ready to paste into your README:
+markdown## Drawdown Analysis
+
 ### Drawdown Chart
 ![Drawdown](https://raw.githubusercontent.com/Drango4979/momentum-strategy/main/results/drawdown.png)
 
-Shows how far each portfolio fell from its previous peak at any given point. 
-0% means the portfolio is at an all-time high. The momentum strategy reached 
-a maximum drawdown of -43.0% versus -49.1% for the benchmark, meaning it 
-offered better downside protection during the worst periods -- most notably 
-the 2008 financial crisis.
+The drawdown chart shows how far each portfolio fell from its previous peak 
+at any given point in time. A value of 0% means the portfolio is at an 
+all-time high. A value of -43% means the portfolio is 43% below its 
+previous peak.
+
+### Key Drawdown Events
+- **2008-2009 Financial Crisis** -- the largest drawdown for both portfolios.
+  The momentum strategy fell -43.0% while the benchmark fell -49.1%, meaning
+  the momentum strategy protected capital better during the worst crash in 
+  modern financial history.
+- **2020 COVID Crash** -- a sharp but short drawdown visible for both 
+  portfolios. Markets recovered quickly as governments and central banks 
+  intervened.
+- **2022 Rate Hike Selloff** -- as the US Federal Reserve aggressively raised 
+  interest rates to fight inflation, both portfolios experienced a notable 
+  drawdown.
+
+### Profit Analysis
+If you had invested $1,000 in January 2005:
+
+| | Momentum Strategy |
+|---|---|
+| Starting Investment | $1,000 |
+| Final Value (December 2024) | $6,354 |
+| Total Profit | $5,354 |
+| Annualised Return | 10.4% |
+| Worst Loss from Peak | -43.0% |
+
+Over approximately 20 years, the momentum strategy turned $1,000 into $6,354 --
+a total profit of $5,354. This represents a 535% return on the original 
+investment, driven by consistent monthly rebalancing into the top performing 
+sectors. The strategy achieved this while limiting the worst drawdown to -43.0%, 
+outperforming the equal-weight benchmark which fell -49.1% at its worst point 
+during the 2008 financial crisis.
 
 ---
 
@@ -139,8 +171,6 @@ was selected in 99 out of ~228 months -- by far the most frequent -- reflecting
 the persistent momentum of the tech sector over the past 20 years. The low 
 selection counts for XLC (32 months) and XLRE (16 months) are partly explained 
 by their later launch dates rather than poor performance.
-
-
 
 ## Notes
 2008 financial market crash visible on monumentum heatmap and 2014 - 2016 energy crisis visible on monumentum heatmap
