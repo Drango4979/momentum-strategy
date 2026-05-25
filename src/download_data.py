@@ -16,6 +16,6 @@ prices = raw["Adj Close"]
 print(f"Downloaded {len(prices)} rows and {len(prices.columns)} ETFs")
 print(prices.head())
 
-# Save to CSV so we don't have to re-download every time
+# Save to CSV so i don't have to re-download every time
 prices.to_csv("data/sector_etf_prices.csv")
 print("Saved to data/sector_etf_prices.csv")

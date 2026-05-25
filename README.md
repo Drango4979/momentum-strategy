@@ -172,5 +172,3 @@ the persistent momentum of the tech sector over the past 20 years. The low
 selection counts for XLC (32 months) and XLRE (16 months) are partly explained 
 by their later launch dates rather than poor performance.
 
-## Notes
-2008 financial market crash visible on monumentum heatmap and 2014 - 2016 energy crisis visible on monumentum heatmap
