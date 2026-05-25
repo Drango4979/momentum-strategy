@@ -111,9 +111,6 @@ financial crisis is the most significant drawdown period for both.
 
 ---
 
-Here's the explanation ready to paste into your README:
-markdown## Drawdown Analysis
-
 ### Drawdown Chart
 ![Drawdown](https://raw.githubusercontent.com/Drango4979/momentum-strategy/main/results/drawdown.png)
 
