@@ -20,6 +20,21 @@ given the tech boom of the last decade. This is visible in the normalised price 
 - **Period:** January 2005 -- December 2024
 - **Price series:** Adjusted Close (accounts for dividends and splits)
 
+## Data Universe
+
+| Ticker | ETF Name | Sector |
+|---|---|---|
+| XLK | Technology Select Sector | Information Technology |
+| XLF | Financial Select Sector | Financials |
+| XLV | Health Care Select Sector | Health Care |
+| XLY | Consumer Discret. Select | Consumer Discretionary |
+| XLP | Consumer Staples Select | Consumer Staples |
+| XLE | Energy Select Sector | Energy |
+| XLI | Industrial Select Sector | Industrials |
+| XLB | Materials Select Sector | Materials |
+| XLRE | Real Estate Select Sector | Real Estate |
+| XLU | Utilities Select Sector | Utilities |
+| XLC | Comm. Services Select | Communication Services |
 
 ## best performing EFT's in the last 6 months 
 
