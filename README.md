@@ -38,25 +38,30 @@ given the tech boom of the last decade. This is visible in the normalised price 
 
 ## best performing EFT's in the last 6 months 
 
-| 2024-07 XLC, XLF, XLK |
-| 2024-08 XLC, XLF, XLK |
-| 2024-09 XLC, XLF, XLK |
-| 2024-10 XLC, XLF, XLU |
-| 2024-11 XLC, XLF, XLU |
-| 2024-12 XLC, XLF, XLI |
+| Date | Selected ETFs |
+|---|---|
+| 2024-07 | XLC, XLF, XLK |
+| 2024-08 | XLC, XLF, XLK |
+| 2024-09 | XLC, XLF, XLK |
+| 2024-10 | XLC, XLF, XLU |
+| 2024-11 | XLC, XLF, XLU |
+| 2024-12 | XLC, XLF, XLI |
 
-How many months each ETF was selected (out of total):
-  XLK: 99 months
-  XLY: 88 months
-  XLF: 69 months
-  XLV: 68 months
-  XLU: 68 months
-  XLE: 64 months
-  XLP: 64 months
-  XLI: 57 months
-  XLB: 56 months
-  XLC: 32 months
-  XLRE: 16 months
+## ETF Selection Frequency (2006-2024)
+
+| Ticker | Months Selected | Sector |
+|---|---|---|
+| XLK | 99 | Technology |
+| XLY | 88 | Consumer Discretionary |
+| XLF | 69 | Financials |
+| XLV | 68 | Health Care |
+| XLU | 68 | Utilities |
+| XLE | 64 | Energy |
+| XLP | 64 | Consumer Staples |
+| XLI | 57 | Industrials |
+| XLB | 56 | Materials |
+| XLC | 32 | Communications |
+| XLRE | 16 | Real Estate |
 
 ## Notes
 2008 financial market crash visible on monumentum heatmap and 2014 - 2016 energy crisis visible on monumentum heatmap
