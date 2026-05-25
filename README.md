@@ -4,8 +4,7 @@ A mini quant trading research project for my TY work experience at Fineco Asset 
 ## What is Momentum?
 Momentum is the tendency for assets that have performed well in the recent 
 past to continue outperforming in the near future, and for poor performers 
-to continue underperforming. First documented by Jegadeesh and Titman (1993), 
-momentum is one of the most robust effects in financial markets.
+to continue underperforming.
 
 In this project, I test a cross-sectional momentum strategy across 11 S&P 500 
 sector ETFs -- each month buying the top 3 ETFs by 12-month return and holding 
