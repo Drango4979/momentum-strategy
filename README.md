@@ -67,7 +67,7 @@ given the tech boom of the last decade. This is visible in the normalised price 
 ## Chart Explanations
 
 ### Normalised Price Chart
-![Normalised Prices](https://raw.githubusercontent.com/KBucur/momentum-strategy/main/results/normalised_prices.png)
+![Normalised Prices](https://raw.githubusercontent.com/Drango4979/momentum-strategy/main/results/normalised_prices.png)
 
 All 11 ETFs are normalised to start at a value of 100 so they can be fairly 
 compared regardless of their actual price. XLK (Technology) grows the most 
@@ -78,7 +78,7 @@ XLRE show gaps at the start as they launched after 2005.
 ---
 
 ### Correlation Heatmap
-![Correlation Heatmap](https://raw.githubusercontent.com/KBucur/momentum-strategy/main/results/correlation_heatmap.png)
+![Correlation Heatmap](https://raw.githubusercontent.com/Drango4979/momentum-strategy/main/results/correlation_heatmap.png)
 
 Shows how closely each pair of ETFs moves together, on a scale of 0 to 1. 
 XLK and XLC are highly correlated (0.85) as both are technology-heavy. 
@@ -89,7 +89,7 @@ prices respectively -- rather than the broader market.
 ---
 
 ### Momentum Rank Heatmap
-![Momentum Rank Heatmap](https://raw.githubusercontent.com/KBucur/momentum-strategy/main/results/momentum_rank_heatmap.png)
+![Momentum Rank Heatmap](https://raw.githubusercontent.com/Drango4979/momentum-strategy/main/results/momentum_rank_heatmap.png)
 
 Shows the momentum rank of each ETF every month from 2006 to 2024. 
 Green = high momentum (rank 1-3), Red = low momentum (rank 9-11). 
@@ -101,7 +101,7 @@ signal can be calculated.
 ---
 
 ### Cumulative Wealth Index
-![Cumulative Wealth](https://raw.githubusercontent.com/KBucur/momentum-strategy/main/results/cumulative_wealth.png)
+![Cumulative Wealth](https://raw.githubusercontent.com/Drango4979/momentum-strategy/main/results/cumulative_wealth.png)
 
 Shows how $1 invested in 2006 would have grown over time. The blue line 
 is the momentum strategy and the orange dashed line is the equal-weight 
@@ -112,7 +112,7 @@ financial crisis is the most significant drawdown period for both.
 ---
 
 ### Drawdown Chart
-![Drawdown](https://raw.githubusercontent.com/KBucur/momentum-strategy/main/results/drawdown.png)
+![Drawdown](https://raw.githubusercontent.com/Drango4979/momentum-strategy/main/results/drawdown.png)
 
 Shows how far each portfolio fell from its previous peak at any given point. 
 0% means the portfolio is at an all-time high. The momentum strategy reached 
@@ -123,7 +123,7 @@ the 2008 financial crisis.
 ---
 
 ### Rolling 12-Month Sharpe Ratio
-![Rolling Sharpe](https://raw.githubusercontent.com/KBucur/momentum-strategy/main/results/rolling_sharpe.png)
+![Rolling Sharpe](https://raw.githubusercontent.com/Drango4979/momentum-strategy/main/results/rolling_sharpe.png)
 
 Shows the risk-adjusted return over every rolling 12-month window. Above 0 
 means the strategy generated positive risk-adjusted returns. Both lines go 
@@ -135,7 +135,10 @@ consistent with a Sharpe ratio of 0.43 vs 0.44.
 
 ### Monthly Rebalance Log
 The full rebalance log is saved in results/rebalance_log.csv. XLK (Technology) 
-was selec
+was selected in 99 out of ~228 months -- by far the most frequent -- reflecting 
+the persistent momentum of the tech sector over the past 20 years. The low 
+selection counts for XLC (32 months) and XLRE (16 months) are partly explained 
+by their later launch dates rather than poor performance.
 
 
 
