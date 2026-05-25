@@ -1,4 +1,4 @@
-# momentum-strategy
+# Momentum-Strategy
 A mini quant trading research project for my TY work experience at Fineco Asset Management.
 
 ## What is Momentum?
@@ -13,3 +13,13 @@ them equally weighted for the following month.
 ## Key Observation
 XLK (Technology) is the highest growing ETF in the dataset, which is unsurprising 
 given the tech boom of the last decade. This is visible in the normalised price chart.
+
+
+
+
+
+
+
+
+## Notes
+2008 financial market crash visible on monumentum heatmap and 2014 - 2016 energy crisis visible on monumentum heatmap
