@@ -38,12 +38,12 @@ given the tech boom of the last decade. This is visible in the normalised price 
 
 ## best performing EFT's in the last 6 months 
 
-2024-07 XLC, XLF, XLK
-2024-08 XLC, XLF, XLK
-2024-09 XLC, XLF, XLK
-2024-10 XLC, XLF, XLU
-2024-11 XLC, XLF, XLU
-2024-12 XLC, XLF, XLI
+| 2024-07 XLC, XLF, XLK |
+| 2024-08 XLC, XLF, XLK |
+| 2024-09 XLC, XLF, XLK |
+| 2024-10 XLC, XLF, XLU |
+| 2024-11 XLC, XLF, XLU |
+| 2024-12 XLC, XLF, XLI |
 
 How many months each ETF was selected (out of total):
   XLK: 99 months
