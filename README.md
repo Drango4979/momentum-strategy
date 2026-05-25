@@ -63,5 +63,81 @@ given the tech boom of the last decade. This is visible in the normalised price 
 | XLC | 32 | Communications |
 | XLRE | 16 | Real Estate |
 
+
+## Chart Explanations
+
+### Normalised Price Chart
+![Normalised Prices](results/normalised_prices.png)
+
+All 11 ETFs are normalised to start at a value of 100 so they can be fairly 
+compared regardless of their actual price. XLK (Technology) grows the most 
+over the period, reflecting the tech boom of the last two decades. The 2008 
+financial crisis is clearly visible as a sharp drop across all ETFs. XLC and 
+XLRE show gaps at the start as they launched after 2005.
+
+---
+
+### Correlation Heatmap
+![Correlation Heatmap](results/correlation_heatmap.png)
+
+Shows how closely each pair of ETFs moves together, on a scale of 0 to 1. 
+XLK and XLC are highly correlated (0.85) as both are technology-heavy. 
+XLU (Utilities) and XLE (Energy) are least correlated with the rest of the 
+universe as they are driven by different factors -- interest rates and oil 
+prices respectively -- rather than the broader market.
+
+---
+
+### Momentum Rank Heatmap
+![Momentum Rank Heatmap](results/momentum_rank_heatmap.png)
+
+Shows the momentum rank of each ETF every month from 2006 to 2024. 
+Green = high momentum (rank 1-3), Red = low momentum (rank 9-11). 
+XLK (Technology) appears green for long stretches, reflecting persistent 
+momentum in the tech sector. XLC and XLRE show grey areas at the start 
+as they launched after 2005 and require 12 months of data before a valid 
+signal can be calculated.
+
+---
+
+### Cumulative Wealth Index
+![Cumulative Wealth](results/cumulative_wealth.png)
+
+Shows how $1 invested in 2006 would have grown over time. The blue line 
+is the momentum strategy and the orange dashed line is the equal-weight 
+benchmark. Both lines track each other closely, consistent with the results 
+table showing similar annualised returns of 10.4% vs 10.5%. The 2008 
+financial crisis is the most significant drawdown period for both.
+
+---
+
+### Drawdown Chart
+![Drawdown](results/drawdown.png)
+
+Shows how far each portfolio fell from its previous peak at any given point. 
+0% means the portfolio is at an all-time high. The momentum strategy reached 
+a maximum drawdown of -43.0% versus -49.1% for the benchmark, meaning it 
+offered better downside protection during the worst periods -- most notably 
+the 2008 financial crisis.
+
+---
+
+### Rolling 12-Month Sharpe Ratio
+![Rolling Sharpe](results/rolling_sharpe.png)
+
+Shows the risk-adjusted return over every rolling 12-month window. Above 0 
+means the strategy generated positive risk-adjusted returns. Both lines go 
+deeply negative around 2008 as the financial crisis destroyed returns across 
+all sectors. Overall the strategy and benchmark track each other closely, 
+consistent with a Sharpe ratio of 0.43 vs 0.44.
+
+---
+
+### Monthly Rebalance Log
+The full rebalance log is saved in results/rebalance_log.csv. XLK (Technology) 
+was selec
+
+
+
 ## Notes
 2008 financial market crash visible on monumentum heatmap and 2014 - 2016 energy crisis visible on monumentum heatmap
