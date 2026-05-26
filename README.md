@@ -212,17 +212,7 @@ This project was built using AI assistance.
 
 **GitHub Copilot**
 Used throughout the project for boilerplate code, docstrings, and README 
-drafting. All generated code was reviewed and understood before being used.
+drafting. All generated code was looked at before pushing
 
 **Claude (Anthropic)**
-Used to assist with code structure, explanations, and the following 
-AI-assisted commentary on the backtest results:
-
-*"The momentum strategy delivered returns broadly in line with the equal-weight 
-benchmark, with an annualised return of 10.4% versus 10.5% for the benchmark. 
-While the strategy did not meaningfully outperform on a return or Sharpe basis, 
-it demonstrated superior downside protection, limiting the maximum drawdown to 
--43.0% compared to -49.1% for the benchmark. The hit rate of 62.1% suggests 
-the strategy was directionally correct in the majority of months. These results 
-are consistent with momentum being a well-known and largely arbitraged factor 
-in liquid, large-cap markets."*
+Used to assist with code structure, explanations
