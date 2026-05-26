@@ -37,10 +37,10 @@ given the tech boom of the last decade. This is visible in the normalised price 
 | XLC | Comm. Services Select | Communication Services |
 
 The universe consists of 11 SPDR Sector ETFs, each tracking a different 
-sector of the S&P 500 index. All 11 ETFs trade in US dollars on NYSE Arca, 
+sector of the S&P 500 index. All 11 ETFs trade in US dollars
 meaning there is no currency conversion needed. Note that XLC launched in 
 2018 and XLRE in 2015, so results before those dates only include 9-10 ETFs. 
-This is a known limitation of the study and is reflected in the momentum 
+This is a known and is reflected in the momentum 
 rank heatmap.
 
 ## Best Performing ETFs in the Last 6 Months
