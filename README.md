@@ -132,6 +132,17 @@ previous peak.
   drawdown.
 
 ### Profit Analysis
+
+## Performance Metrics
+
+| Metric | Strategy | Benchmark |
+|---|---|---|
+| Ann. Return | 10.4% | 10.5% |
+| Ann. Volatility | 15.0% | 14.8% |
+| Sharpe Ratio | 0.43 | 0.44 |
+| Max Drawdown | -43.0% | -49.1% |
+| Hit Rate | 62.1% | 65.4% |
+
 If you had invested $1,000 in January 2005:
 
 | | Momentum Strategy |
@@ -169,20 +180,3 @@ the persistent momentum of the tech sector over the past 20 years. The low
 selection counts for XLC (32 months) and XLRE (16 months) are partly explained 
 by their later launch dates rather than poor performance.
 
-
-## Results
-
-The momentum strategy delivered returns broadly in line with the equal-weight 
-benchmark over the 20 year period from 2005 to 2024. While raw returns were 
-almost identical at 10.4% vs 10.5%, the strategy demonstrated superior downside 
-protection, limiting the maximum drawdown to -43.0% compared to -49.1% for the 
-benchmark. These results suggest that momentum on a small universe of 11 sector 
-ETFs is a useful risk management tool rather than a significant alpha generator.
-
-| Metric | Strategy | Benchmark |
-|---|---|---|
-| Ann. Return | 10.4% | 10.5% |
-| Ann. Volatility | 15.0% | 14.8% |
-| Sharpe Ratio | 0.43 | 0.44 |
-| Max Drawdown | -43.0% | -49.1% |
-| Hit Rate | 62.1% | 65.4% |
