@@ -47,12 +47,11 @@ rank heatmap.
 
 | Date | Selected ETFs |
 |---|---|
-| 2024-07 | XLC, XLF, XLK |
-| 2024-08 | XLC, XLF, XLK |
-| 2024-09 | XLC, XLF, XLK |
-| 2024-10 | XLC, XLF, XLU |
-| 2024-11 | XLC, XLF, XLU |
-| 2024-12 | XLC, XLF, XLI |
+| 2024-07 | COMM, FIN, TECH |
+| 2024-09 | COMM, FIN, TECH |
+| 2024-10 | COMM, FIN, UTIL |
+| 2024-11 | COMM, FIN, UTIL |
+| 2024-12 | COMM, FIN, IND |
 
 The table above shows the top 3 ETFs selected by the momentum strategy 
 for each of the last 6 months of the dataset. XLC (Communications) and 
