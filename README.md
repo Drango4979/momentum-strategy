@@ -1,7 +1,7 @@
 # Momentum-Strategy
 A mini quant trading research project for my TY work experience at Fineco Asset Management.
 
-## What is Momentum?
+### What is Momentum?
 Momentum is the tendency for assets that have performed well in the recent 
 past to continue outperforming in the near future, and for poor performers 
 to continue underperforming.
@@ -10,17 +10,17 @@ In this project, I test a cross-sectional momentum strategy across 11 S&P 500
 sector ETFs -- each month buying the top 3 ETFs by 12-month return and holding 
 them equally weighted for the following month.
 
-## Key Observation
+### Key Observation
 XLK (Technology) is the highest growing ETF in the dataset, which is unsurprising 
 given the tech boom of the last decade. This is visible in the normalised price chart.
 
-## Data & Universe
+### Data & Universe
 - **Source:** Yahoo Finance via yfinance
 - **Universe:** 11 SPDR Sector ETFs (XLK, XLF, XLV, XLY, XLP, XLE, XLI, XLB, XLRE, XLU, XLC)
 - **Period:** January 2005 -- December 2024
 - **Price series:** Adjusted Close (accounts for dividends and splits)
 
-## Data Universe
+### Data Universe
 
 | Ticker | ETF Name | Sector |
 |---|---|---|
@@ -43,7 +43,7 @@ meaning there is no currency conversion needed. Note that XLC launched in
 This is a known and is reflected in the momentum 
 rank heatmap.
 
-## Best Performing ETFs in the Last 6 Months
+### Best Performing ETFs in the Last 6 Months
 
 | Date | Selected ETFs |
 |---|---|
@@ -62,18 +62,7 @@ the earlier months before being replaced by XLU (Utilities) in October
 and XLI (Industrials) in December, suggesting a rotation out of technology 
 and into more defensive and industrial sectors towards the end of 2024.
 
-## ETF Selection Frequency (2006-2024)
-
-### Monthly Rebalance Log
-The full rebalance log is saved in results/rebalance_log.csv. XLK (Technology) 
-dominates the selection frequency, appearing in 99 out of 228 months -- nearly 
-half of all rebalances. This reflects the persistent momentum of the technology 
-sector over the past 20 years, driven by the rise of mega-cap tech companies 
-like Apple, Microsoft and Nvidia. XLY (Consumer Discretionary) is the second 
-most selected at 88 months, benefiting from strong consumer spending trends. 
-At the other end, XLRE (Real Estate) and XLC (Communications) have low counts 
-partly due to their later launch dates -- XLRE in 2015 and XLC in 2018 -- 
-rather than poor momentum performance.
+### ETF Selection Frequency (2006-2024)
 
 | Ticker | Months Selected | Sector |
 |---|---|---|
@@ -88,6 +77,18 @@ rather than poor momentum performance.
 | XLB | 56 | Materials |
 | XLC | 32 | Communications |
 | XLRE | 16 | Real Estate |
+
+### Monthly Rebalance Log
+
+The full rebalance log is saved in results/rebalance_log.csv. XLK (Technology) 
+dominates the selection frequency, appearing in 99 out of 228 months -- nearly 
+half of all rebalances. This reflects the persistent momentum of the technology 
+sector over the past 20 years, driven by the rise of mega-cap tech companies 
+like Apple, Microsoft and Nvidia. XLY (Consumer Discretionary) is the second 
+most selected at 88 months, benefiting from strong consumer spending trends. 
+At the other end, XLRE (Real Estate) and XLC (Communications) have low counts 
+partly due to their later launch dates -- XLRE in 2015 and XLC in 2018 -- 
+rather than poor momentum performance.
 
 
 ## Chart Explanations
