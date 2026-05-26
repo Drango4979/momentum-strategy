@@ -36,7 +36,14 @@ given the tech boom of the last decade. This is visible in the normalised price 
 | XLU | Utilities Select Sector | Utilities |
 | XLC | Comm. Services Select | Communication Services |
 
-## best performing EFT's in the last 6 months 
+The universe consists of 11 SPDR Sector ETFs, each tracking a different 
+sector of the S&P 500 index. All 11 ETFs trade in US dollars on NYSE Arca, 
+meaning there is no currency conversion needed. Note that XLC launched in 
+2018 and XLRE in 2015, so results before those dates only include 9-10 ETFs. 
+This is a known limitation of the study and is reflected in the momentum 
+rank heatmap.
+
+## Best Performing ETFs in the Last 6 Months
 
 | Date | Selected ETFs |
 |---|---|
@@ -47,7 +54,26 @@ given the tech boom of the last decade. This is visible in the normalised price 
 | 2024-11 | XLC, XLF, XLU |
 | 2024-12 | XLC, XLF, XLI |
 
+The table above shows the top 3 ETFs selected by the momentum strategy 
+for each of the last 6 months of the dataset. XLC (Communications) and 
+XLF (Financials) appeared consistently throughout the second half of 2024, 
+reflecting strong momentum in those sectors. XLK (Technology) dominated 
+the earlier months before being replaced by XLU (Utilities) in October 
+and XLI (Industrials) in December, suggesting a rotation out of technology 
+and into more defensive and industrial sectors towards the end of 2024.
+
 ## ETF Selection Frequency (2006-2024)
+
+### Monthly Rebalance Log
+The full rebalance log is saved in results/rebalance_log.csv. XLK (Technology) 
+dominates the selection frequency, appearing in 99 out of 228 months -- nearly 
+half of all rebalances. This reflects the persistent momentum of the technology 
+sector over the past 20 years, driven by the rise of mega-cap tech companies 
+like Apple, Microsoft and Nvidia. XLY (Consumer Discretionary) is the second 
+most selected at 88 months, benefiting from strong consumer spending trends. 
+At the other end, XLRE (Real Estate) and XLC (Communications) have low counts 
+partly due to their later launch dates -- XLRE in 2015 and XLC in 2018 -- 
+rather than poor momentum performance.
 
 | Ticker | Months Selected | Sector |
 |---|---|---|
@@ -131,9 +157,28 @@ previous peak.
   interest rates to fight inflation, both portfolios experienced a notable 
   drawdown.
 
-### Profit Analysis
+---
 
-## Performance Metrics
+### Rolling 12-Month Sharpe Ratio
+![Rolling Sharpe](https://raw.githubusercontent.com/Drango4979/momentum-strategy/main/results/rolling_sharpe.png)
+
+Shows the risk-adjusted return over every rolling 12-month window. Above 0 
+means the strategy generated positive risk-adjusted returns. Both lines go 
+deeply negative around 2008 as the financial crisis destroyed returns across 
+all sectors. Overall the strategy and benchmark track each other closely, 
+consistent with a Sharpe ratio of 0.43 vs 0.44.
+
+---
+
+## Profit Analysis
+
+### Performance Metrics
+
+The momentum strategy was tested against an equal-weight benchmark across 
+all 11 sector ETFs from 2005 to 2024. The strategy rebalances monthly into 
+the top 3 ETFs by 12-month momentum score, with each position equally weighted 
+at one third of the portfolio. The results below compare the strategy against 
+simply holding all 11 ETFs in equal weights and rebalancing monthly.
 
 | Metric | Strategy | Benchmark |
 |---|---|---|
@@ -159,24 +204,3 @@ investment, driven by consistent monthly rebalancing into the top performing
 sectors. The strategy achieved this while limiting the worst drawdown to -43.0%, 
 outperforming the equal-weight benchmark which fell -49.1% at its worst point 
 during the 2008 financial crisis.
-
----
-
-### Rolling 12-Month Sharpe Ratio
-![Rolling Sharpe](https://raw.githubusercontent.com/Drango4979/momentum-strategy/main/results/rolling_sharpe.png)
-
-Shows the risk-adjusted return over every rolling 12-month window. Above 0 
-means the strategy generated positive risk-adjusted returns. Both lines go 
-deeply negative around 2008 as the financial crisis destroyed returns across 
-all sectors. Overall the strategy and benchmark track each other closely, 
-consistent with a Sharpe ratio of 0.43 vs 0.44.
-
----
-
-### Monthly Rebalance Log
-The full rebalance log is saved in results/rebalance_log.csv. XLK (Technology) 
-was selected in 99 out of ~228 months -- by far the most frequent -- reflecting 
-the persistent momentum of the tech sector over the past 20 years. The low 
-selection counts for XLC (32 months) and XLRE (16 months) are partly explained 
-by their later launch dates rather than poor performance.
-
