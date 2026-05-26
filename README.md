@@ -169,3 +169,12 @@ the persistent momentum of the tech sector over the past 20 years. The low
 selection counts for XLC (32 months) and XLRE (16 months) are partly explained 
 by their later launch dates rather than poor performance.
 
+
+| Metric | Strategy | Benchmark |
+|---|---|---|
+| Ann. Return | 10.4% | 10.5% |
+| Ann. Volatility | 15.0% | 14.8% |
+| Sharpe Ratio | 0.43 | 0.44 |
+| Max Drawdown | -43.0% | -49.1% |
+| Hit Rate | 62.1% | 65.4% |
+
