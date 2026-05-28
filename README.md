@@ -48,6 +48,7 @@ rank heatmap.
 | Date | Selected ETFs |
 |---|---|
 | 2024-07 | COMM, FIN, TECH |
+| 2024-06 | COMM, FIN, TECH |
 | 2024-09 | COMM, FIN, TECH |
 | 2024-10 | COMM, FIN, UTIL |
 | 2024-11 | COMM, FIN, UTIL |
